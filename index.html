@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>MVC EXAMPLE</title>
+		<link rel="stylesheet" href="/css/styles.css">
+	</head>
+	<body>
+		<label id="dataLabel">Loading data...</label>
+		<script src="/js/model/Model.js"></script>
+		<script src="/js/view/View.js"></script>
+		<script src="/js/controller/Controller.js"></script>
+		<script>
+			const app = new Controller(new Model(), new View());
+		</script>
+	</body>
+</html>
