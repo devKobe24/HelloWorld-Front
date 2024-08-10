@@ -4,7 +4,7 @@ class Model {
 	}
 
 	fetchData(callback) {
-		fetch('https://devkobe-test.com/api/data')
+		fetch('https://api.devkobe-test.com/api/data')
 			.then(response => response.text())
 			.then(data => {
 				this.data = data;
